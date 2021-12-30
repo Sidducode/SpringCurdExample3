@@ -12,6 +12,8 @@ import javax.persistence.Table;
 @Table(name = "demo55")
 
 public class Employee {
+	
+	
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -60,4 +62,8 @@ public class Employee {
 		this.salary = salary;
 	}
 
+	
+	public void m1() {
+		System.out.println("sidd");
+	}
 }
