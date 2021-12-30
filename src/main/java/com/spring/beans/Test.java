@@ -15,11 +15,11 @@ public class Test {
 		//empDao.updateEmployee(new Student(2, "nag", 6000));
 		//empDao.deleteEmployee(3);
 		
-//	List<Employee> list = empDao.getAllEmployee();
-//		//System.out.println(employeeDao.getEmployee(1));
-//	for(Employee emp : list) {
-//		System.out.println(emp);
-//		}
+	List<Employee> list = empDao.getAllEmployee();
+ 
+   for(Employee emp : list) {
+	System.out.println(emp);
+	}
 		
 }
 
